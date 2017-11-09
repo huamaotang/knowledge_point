@@ -1,4 +1,4 @@
-#PHP中PSR[0-4]代码规范
+# PHP中PSR[0-4]代码规范
 ## php-fig
 ```
 1、FIG：PSR[0-4]代码规范的得发明者、规范者，framework interoperability group
@@ -415,14 +415,14 @@ class LogLevel
     const DEBUG     = 'debug';
 }
 ```
-##Autoloader
-###类名必须要和对应的文件名要一模一样，大小写也要一模一样
+## Autoloader
+### 类名必须要和对应的文件名要一模一样，大小写也要一模一样
 
-###类文件名要以 .php 结尾
+### 类文件名要以 .php 结尾
 
-###废除了PSR-0中_就是目录分割符的写法，_下划线在完全限定类名中是没有特殊含义
+### 废除了PSR-0中_就是目录分割符的写法，_下划线在完全限定类名中是没有特殊含义
 
-###实例
+### 实例
 
 FULLY QUALIFIED CLASS NAME  | NAMESPACE PREFIX  | BASE DIRECTORY  | RESULTING FILE PATH
 ------------- | -------------  | -------------  | -------------
