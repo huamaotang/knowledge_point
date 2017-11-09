@@ -393,7 +393,7 @@ interface LoggerAwareInterface
     public function setLogger(LoggerInterface $logger);
 }
 ```
-###Psr\Log\LogLevel
+### Psr\Log\LogLevel
 
 ```
 <?php
